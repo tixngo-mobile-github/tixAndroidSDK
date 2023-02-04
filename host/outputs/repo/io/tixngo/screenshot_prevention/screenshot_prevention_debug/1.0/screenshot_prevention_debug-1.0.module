@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.tixngo.screenshot_prevention",
+    "module": "screenshot_prevention_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-857bd6b74c5eb56151bfafe91e7fa6a82b6fee25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "screenshot_prevention_debug-1.0.aar",
+          "url": "screenshot_prevention_debug-1.0.aar",
+          "size": 22731,
+          "sha512": "ee86e01be3916e5c1f28097b14bf2bf6a255fda109495141d0ece3f9ff78fc4144bb6fc20bc0bea81450d0d58f8425e629cb89d71170a9a22b957af9dbcb101b",
+          "sha256": "7553044c6b2d2e4fea2e2c4f380737739d21ce3675596f115d30e1a4ec2d72eb",
+          "sha1": "fe9331bfdf66232b545496705e945734d106d247",
+          "md5": "44a51b8a5c42952aeaa30b8363551f59"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-857bd6b74c5eb56151bfafe91e7fa6a82b6fee25"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "io.tixngo.core",
+          "module": "core",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "screenshot_prevention_debug-1.0.aar",
+          "url": "screenshot_prevention_debug-1.0.aar",
+          "size": 22731,
+          "sha512": "ee86e01be3916e5c1f28097b14bf2bf6a255fda109495141d0ece3f9ff78fc4144bb6fc20bc0bea81450d0d58f8425e629cb89d71170a9a22b957af9dbcb101b",
+          "sha256": "7553044c6b2d2e4fea2e2c4f380737739d21ce3675596f115d30e1a4ec2d72eb",
+          "sha1": "fe9331bfdf66232b545496705e945734d106d247",
+          "md5": "44a51b8a5c42952aeaa30b8363551f59"
+        }
+      ]
+    }
+  ]
+}

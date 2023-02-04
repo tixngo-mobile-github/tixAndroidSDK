@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.tixngo.screenshot_prevention",
+    "module": "screenshot_prevention_profile",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-857bd6b74c5eb56151bfafe91e7fa6a82b6fee25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "screenshot_prevention_profile-1.0.aar",
+          "url": "screenshot_prevention_profile-1.0.aar",
+          "size": 22523,
+          "sha512": "d5524309461ae40cff5f96dbaa1ae7179ca5e555b7a35808317ba9a9d0afb9c43858e2f226b06d6f3f9d91f109816f5c47566824941157f6c21c0df078870fb6",
+          "sha256": "d762a90e11e679d0d6c6942ef696b805c1a07d2f20773fa9be3c8668325621f2",
+          "sha1": "41951470fe085163202f713972be5412905d7f31",
+          "md5": "fe34883883629810c6d6c5a5b05f4f20"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-857bd6b74c5eb56151bfafe91e7fa6a82b6fee25"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "io.tixngo.core",
+          "module": "core",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "screenshot_prevention_profile-1.0.aar",
+          "url": "screenshot_prevention_profile-1.0.aar",
+          "size": 22523,
+          "sha512": "d5524309461ae40cff5f96dbaa1ae7179ca5e555b7a35808317ba9a9d0afb9c43858e2f226b06d6f3f9d91f109816f5c47566824941157f6c21c0df078870fb6",
+          "sha256": "d762a90e11e679d0d6c6942ef696b805c1a07d2f20773fa9be3c8668325621f2",
+          "sha1": "41951470fe085163202f713972be5412905d7f31",
+          "md5": "fe34883883629810c6d6c5a5b05f4f20"
+        }
+      ]
+    }
+  ]
+}

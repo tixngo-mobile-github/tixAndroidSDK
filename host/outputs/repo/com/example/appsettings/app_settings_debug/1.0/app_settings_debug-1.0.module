@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.appsettings",
+    "module": "app_settings_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-857bd6b74c5eb56151bfafe91e7fa6a82b6fee25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "app_settings_debug-1.0.aar",
+          "url": "app_settings_debug-1.0.aar",
+          "size": 8523,
+          "sha512": "69d2e3976236a49d0ea0e5f3bae27384112798656ddc181112c603314bbc9c89f08df89358b7ce008bb8d5e7cf7b7d2c1e0a1c40f6bd6c93b135d9e81bcf7704",
+          "sha256": "a5b551256c070328728401edfa264d97b6a7e0d397386f0759e8e890ab6320d1",
+          "sha1": "eee099c0edc4557de30ec96afb1a21aa28bcb1ec",
+          "md5": "78555c0c7f62bbd38370435a4214ad48"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-857bd6b74c5eb56151bfafe91e7fa6a82b6fee25"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "app_settings_debug-1.0.aar",
+          "url": "app_settings_debug-1.0.aar",
+          "size": 8523,
+          "sha512": "69d2e3976236a49d0ea0e5f3bae27384112798656ddc181112c603314bbc9c89f08df89358b7ce008bb8d5e7cf7b7d2c1e0a1c40f6bd6c93b135d9e81bcf7704",
+          "sha256": "a5b551256c070328728401edfa264d97b6a7e0d397386f0759e8e890ab6320d1",
+          "sha1": "eee099c0edc4557de30ec96afb1a21aa28bcb1ec",
+          "md5": "78555c0c7f62bbd38370435a4214ad48"
+        }
+      ]
+    }
+  ]
+}

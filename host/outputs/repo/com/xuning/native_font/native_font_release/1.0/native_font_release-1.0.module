@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.xuning.native_font",
+    "module": "native_font_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-857bd6b74c5eb56151bfafe91e7fa6a82b6fee25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "native_font_release-1.0.aar",
+          "url": "native_font_release-1.0.aar",
+          "size": 5919,
+          "sha512": "e6d81a3cf30329776183c7e25f81243307fe106d2aa67a0c1ca811d10a6b89df6f8c3cf7d816aae147959660b2b93c174ee3ba1fe185cb2bb72b98fa4c81487c",
+          "sha256": "f20f72be10c788bdea25b8f3098c040e47d0c06fc2c70a55df454fc670470ec9",
+          "sha1": "993f66ee29a38d6e47ba87ea55d692cb3ef620bc",
+          "md5": "389dc99055104b8dda9ac20aaddf4ffe"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-857bd6b74c5eb56151bfafe91e7fa6a82b6fee25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "native_font_release-1.0.aar",
+          "url": "native_font_release-1.0.aar",
+          "size": 5919,
+          "sha512": "e6d81a3cf30329776183c7e25f81243307fe106d2aa67a0c1ca811d10a6b89df6f8c3cf7d816aae147959660b2b93c174ee3ba1fe185cb2bb72b98fa4c81487c",
+          "sha256": "f20f72be10c788bdea25b8f3098c040e47d0c06fc2c70a55df454fc670470ec9",
+          "sha1": "993f66ee29a38d6e47ba87ea55d692cb3ef620bc",
+          "md5": "389dc99055104b8dda9ac20aaddf4ffe"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.tixngo.wallet_suppression",
+    "module": "wallet_suppression",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantAllApiPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-857bd6b74c5eb56151bfafe91e7fa6a82b6fee25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wallet_suppression-1.0-debug.aar",
+          "url": "wallet_suppression-1.0-debug.aar",
+          "size": 7199,
+          "sha512": "f8646898017cf4854cd23058e7eb0f00a47d048d758daea62cfe07bf56124e9a40bdeb83b3f30f0b9c8358cf8610518fed3a6fbb46132391bd0cde260bc726c2",
+          "sha256": "4dd241ec0f3c424f6114cdbfcfafe603dd20e193f26e56bc17df7a319ee5088e",
+          "sha1": "1954591dc1c99e98e5f5651e49e119ff8af41b7e",
+          "md5": "72349bfe1b94e68d53466b037364ca1d"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantAllRuntimePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-857bd6b74c5eb56151bfafe91e7fa6a82b6fee25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wallet_suppression-1.0-debug.aar",
+          "url": "wallet_suppression-1.0-debug.aar",
+          "size": 7199,
+          "sha512": "f8646898017cf4854cd23058e7eb0f00a47d048d758daea62cfe07bf56124e9a40bdeb83b3f30f0b9c8358cf8610518fed3a6fbb46132391bd0cde260bc726c2",
+          "sha256": "4dd241ec0f3c424f6114cdbfcfafe603dd20e193f26e56bc17df7a319ee5088e",
+          "sha1": "1954591dc1c99e98e5f5651e49e119ff8af41b7e",
+          "md5": "72349bfe1b94e68d53466b037364ca1d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantAllApiPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-857bd6b74c5eb56151bfafe91e7fa6a82b6fee25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wallet_suppression-1.0-release.aar",
+          "url": "wallet_suppression-1.0-release.aar",
+          "size": 6931,
+          "sha512": "8271c5de9ef98eca753ec0ab0d45f4734bea0e545b5fbd58d18ff21652ca0461b1039654b56b95f00fa872858304df930488e0904b39f78d6299170e8c15ae3f",
+          "sha256": "2863908610055f1f76c949f1c312002f56cc7b544eb4720326b802a3f252a3c8",
+          "sha1": "4045b6c23c926ac8867872f2ad5834c13bac937c",
+          "md5": "91dced198e7e5c8d0c3e1ab93628e78a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantAllRuntimePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-857bd6b74c5eb56151bfafe91e7fa6a82b6fee25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wallet_suppression-1.0-release.aar",
+          "url": "wallet_suppression-1.0-release.aar",
+          "size": 6931,
+          "sha512": "8271c5de9ef98eca753ec0ab0d45f4734bea0e545b5fbd58d18ff21652ca0461b1039654b56b95f00fa872858304df930488e0904b39f78d6299170e8c15ae3f",
+          "sha256": "2863908610055f1f76c949f1c312002f56cc7b544eb4720326b802a3f252a3c8",
+          "sha1": "4045b6c23c926ac8867872f2ad5834c13bac937c",
+          "md5": "91dced198e7e5c8d0c3e1ab93628e78a"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantAllApiPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "profile",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-857bd6b74c5eb56151bfafe91e7fa6a82b6fee25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wallet_suppression-1.0-profile.aar",
+          "url": "wallet_suppression-1.0-profile.aar",
+          "size": 6930,
+          "sha512": "33e7926ea2dbb2e57dd03b50092aeebc621aff3f0c5b61105a65286cdf119bf922318fde9e594a3f1028e72a78fafccd5e12f67eb9129e165d1f3a44d21c555f",
+          "sha256": "97989cae8c1dd314b1e74d93f55dfd26ef16bbd82106454fdf6701ebe10409bd",
+          "sha1": "e340a964e021cdaf279e1b127fd375beabc6fb49",
+          "md5": "c0c8f635f478bbbbe3332e2857fee546"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantAllRuntimePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "profile",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-857bd6b74c5eb56151bfafe91e7fa6a82b6fee25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wallet_suppression-1.0-profile.aar",
+          "url": "wallet_suppression-1.0-profile.aar",
+          "size": 6930,
+          "sha512": "33e7926ea2dbb2e57dd03b50092aeebc621aff3f0c5b61105a65286cdf119bf922318fde9e594a3f1028e72a78fafccd5e12f67eb9129e165d1f3a44d21c555f",
+          "sha256": "97989cae8c1dd314b1e74d93f55dfd26ef16bbd82106454fdf6701ebe10409bd",
+          "sha1": "e340a964e021cdaf279e1b127fd375beabc6fb49",
+          "md5": "c0c8f635f478bbbbe3332e2857fee546"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.system_uptime",
+    "module": "system_uptime",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantAllApiPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-857bd6b74c5eb56151bfafe91e7fa6a82b6fee25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "system_uptime-1.0-debug.aar",
+          "url": "system_uptime-1.0-debug.aar",
+          "size": 5583,
+          "sha512": "4d69f46e2d3967690b107c5bfb91be125c8c4115c1aff25e08ccb6237741a2e61c95b1a100b1062d7291f28452c5dbfc9ecea9b16de1b3d0d179b2c4d2f40fc6",
+          "sha256": "9cf698d097996ad2014ceb0cb5f29873d15b3a1f88c9d6eace8ffb344bb3d843",
+          "sha1": "b8e2b054823d809a7fb5427d6724c22c9233fb0b",
+          "md5": "100acedf827f24288327882caf859a8b"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantAllRuntimePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-857bd6b74c5eb56151bfafe91e7fa6a82b6fee25"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "system_uptime-1.0-debug.aar",
+          "url": "system_uptime-1.0-debug.aar",
+          "size": 5583,
+          "sha512": "4d69f46e2d3967690b107c5bfb91be125c8c4115c1aff25e08ccb6237741a2e61c95b1a100b1062d7291f28452c5dbfc9ecea9b16de1b3d0d179b2c4d2f40fc6",
+          "sha256": "9cf698d097996ad2014ceb0cb5f29873d15b3a1f88c9d6eace8ffb344bb3d843",
+          "sha1": "b8e2b054823d809a7fb5427d6724c22c9233fb0b",
+          "md5": "100acedf827f24288327882caf859a8b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantAllApiPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-857bd6b74c5eb56151bfafe91e7fa6a82b6fee25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "system_uptime-1.0-release.aar",
+          "url": "system_uptime-1.0-release.aar",
+          "size": 5400,
+          "sha512": "fff6930907da9c9e5294e9e34d8e25bb1b7af306541d2e12c426444d567492deb0f6a03f8712b89b24d855debc3b5d78a41cf742b621404d53ef72e89668fed1",
+          "sha256": "ad068ea250a4c20eede08f76593f8e91b5f6fa87be69af59532672a1540d19f1",
+          "sha1": "92b95d31c95fbc7b5cd8409bf2cb9cfb863b5c9b",
+          "md5": "8f6f4960def86bcb188de30d4450d6ad"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantAllRuntimePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-857bd6b74c5eb56151bfafe91e7fa6a82b6fee25"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "system_uptime-1.0-release.aar",
+          "url": "system_uptime-1.0-release.aar",
+          "size": 5400,
+          "sha512": "fff6930907da9c9e5294e9e34d8e25bb1b7af306541d2e12c426444d567492deb0f6a03f8712b89b24d855debc3b5d78a41cf742b621404d53ef72e89668fed1",
+          "sha256": "ad068ea250a4c20eede08f76593f8e91b5f6fa87be69af59532672a1540d19f1",
+          "sha1": "92b95d31c95fbc7b5cd8409bf2cb9cfb863b5c9b",
+          "md5": "8f6f4960def86bcb188de30d4450d6ad"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantAllApiPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "profile",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-857bd6b74c5eb56151bfafe91e7fa6a82b6fee25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "system_uptime-1.0-profile.aar",
+          "url": "system_uptime-1.0-profile.aar",
+          "size": 5399,
+          "sha512": "6c3845ab0cddff726f00e897acb58de651f32e8fda0f82d980b6593147bd70c7edd9db3f7ac8553039fc4c0b03ce7e723a0b013f2e7eba5d02faae3d9c0ba19f",
+          "sha256": "bc15c424eca5ce0821ac8c767b01cf3f87ff1087174ea3afa2ef7cc6b08b15c6",
+          "sha1": "e7191c9df53831018842d080bdc530b45a663a28",
+          "md5": "e233ce2d960e32acdb3d57baf6e8eeb7"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantAllRuntimePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "profile",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-857bd6b74c5eb56151bfafe91e7fa6a82b6fee25"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "system_uptime-1.0-profile.aar",
+          "url": "system_uptime-1.0-profile.aar",
+          "size": 5399,
+          "sha512": "6c3845ab0cddff726f00e897acb58de651f32e8fda0f82d980b6593147bd70c7edd9db3f7ac8553039fc4c0b03ce7e723a0b013f2e7eba5d02faae3d9c0ba19f",
+          "sha256": "bc15c424eca5ce0821ac8c767b01cf3f87ff1087174ea3afa2ef7cc6b08b15c6",
+          "sha1": "e7191c9df53831018842d080bdc530b45a663a28",
+          "md5": "e233ce2d960e32acdb3d57baf6e8eeb7"
+        }
+      ]
+    }
+  ]
+}
