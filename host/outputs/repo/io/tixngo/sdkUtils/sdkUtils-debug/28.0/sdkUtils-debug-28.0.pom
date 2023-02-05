@@ -2,8 +2,8 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>io.tixngo.sdk_utils</groupId>
-  <artifactId>sdk_utils_debug</artifactId>
-  <version>27.0</version>
+  <groupId>io.tixngo.sdkUtils</groupId>
+  <artifactId>sdkUtils-debug</artifactId>
+  <version>28.0</version>
   <packaging>aar</packaging>
 </project>
