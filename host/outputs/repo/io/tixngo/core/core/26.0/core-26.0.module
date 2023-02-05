@@ -1,0 +1,303 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.tixngo.core",
+    "module": "core",
+    "version": "26.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantAllApiPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-857bd6b74c5eb56151bfafe91e7fa6a82b6fee25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-26.0-debug.aar",
+          "url": "core-26.0-debug.aar",
+          "size": 37448,
+          "sha512": "55493066237081dfd5732576d971b3b869b134a6fb582b7807dce76fb4fc85d43a2707c5c4def2774e04c617787e9466d95bc605bf92c46dbafcc441586804d7",
+          "sha256": "2957cc427809b25efbabda9d3edfc920be41dca971426fd4305d14ed690a74ef",
+          "sha1": "5db1f7f127d87ac3cd50d2de68e22b086b6d3587",
+          "md5": "b69bc0077fb0774b5d660b72947ced32"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantAllRuntimePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-857bd6b74c5eb56151bfafe91e7fa6a82b6fee25"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.karumi",
+          "module": "dexter",
+          "version": {
+            "requires": "6.2.3"
+          }
+        },
+        {
+          "group": "com.mathrawk.libphonenumber",
+          "module": "libphonenumber",
+          "version": {
+            "requires": "26.0"
+          }
+        },
+        {
+          "group": "com.xamdesign.safe_device",
+          "module": "safe_device",
+          "version": {
+            "requires": "26.0"
+          }
+        },
+        {
+          "group": "com.xuning.native_font",
+          "module": "native_font",
+          "version": {
+            "requires": "26.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-26.0-debug.aar",
+          "url": "core-26.0-debug.aar",
+          "size": 37448,
+          "sha512": "55493066237081dfd5732576d971b3b869b134a6fb582b7807dce76fb4fc85d43a2707c5c4def2774e04c617787e9466d95bc605bf92c46dbafcc441586804d7",
+          "sha256": "2957cc427809b25efbabda9d3edfc920be41dca971426fd4305d14ed690a74ef",
+          "sha1": "5db1f7f127d87ac3cd50d2de68e22b086b6d3587",
+          "md5": "b69bc0077fb0774b5d660b72947ced32"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantAllApiPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-857bd6b74c5eb56151bfafe91e7fa6a82b6fee25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-26.0-release.aar",
+          "url": "core-26.0-release.aar",
+          "size": 36778,
+          "sha512": "f3574e575653a2103b5218235b8b0f28a75557145292364e1b576eed7e6c5a3116310dc793efefa22022c2b629c8d9575e7f507c605d8123308a920c353a4740",
+          "sha256": "cb8f66f03d16e1d16c933ba2c3d3ccd873ab031dda4911e68bf4959712e49dc0",
+          "sha1": "5242e55fda6e53bd40224d9714e95816be82b00f",
+          "md5": "70d966d87155ccae7bf59393489671d5"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantAllRuntimePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-857bd6b74c5eb56151bfafe91e7fa6a82b6fee25"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.karumi",
+          "module": "dexter",
+          "version": {
+            "requires": "6.2.3"
+          }
+        },
+        {
+          "group": "com.mathrawk.libphonenumber",
+          "module": "libphonenumber",
+          "version": {
+            "requires": "26.0"
+          }
+        },
+        {
+          "group": "com.xamdesign.safe_device",
+          "module": "safe_device",
+          "version": {
+            "requires": "26.0"
+          }
+        },
+        {
+          "group": "com.xuning.native_font",
+          "module": "native_font",
+          "version": {
+            "requires": "26.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-26.0-release.aar",
+          "url": "core-26.0-release.aar",
+          "size": 36778,
+          "sha512": "f3574e575653a2103b5218235b8b0f28a75557145292364e1b576eed7e6c5a3116310dc793efefa22022c2b629c8d9575e7f507c605d8123308a920c353a4740",
+          "sha256": "cb8f66f03d16e1d16c933ba2c3d3ccd873ab031dda4911e68bf4959712e49dc0",
+          "sha1": "5242e55fda6e53bd40224d9714e95816be82b00f",
+          "md5": "70d966d87155ccae7bf59393489671d5"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantAllApiPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "profile",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-857bd6b74c5eb56151bfafe91e7fa6a82b6fee25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-26.0-profile.aar",
+          "url": "core-26.0-profile.aar",
+          "size": 36798,
+          "sha512": "cecdfe9984101e98342d0b65dab6a163ba5e7fc9f7d679157c909077071b484db0d6d28735fc98942c97569309b51bdfc04039c085e9f3d9185c326faf6493ed",
+          "sha256": "a8bfa7b73e907b10cf6487817bae046007694b17d24c186500a9132877e68c9e",
+          "sha1": "47b33c5308d96a10c00e80faec14146e477432dd",
+          "md5": "020440f7dd09fbff8ea704fe8fc8a8f7"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantAllRuntimePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "profile",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-857bd6b74c5eb56151bfafe91e7fa6a82b6fee25"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.karumi",
+          "module": "dexter",
+          "version": {
+            "requires": "6.2.3"
+          }
+        },
+        {
+          "group": "com.mathrawk.libphonenumber",
+          "module": "libphonenumber",
+          "version": {
+            "requires": "26.0"
+          }
+        },
+        {
+          "group": "com.xamdesign.safe_device",
+          "module": "safe_device",
+          "version": {
+            "requires": "26.0"
+          }
+        },
+        {
+          "group": "com.xuning.native_font",
+          "module": "native_font",
+          "version": {
+            "requires": "26.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-26.0-profile.aar",
+          "url": "core-26.0-profile.aar",
+          "size": 36798,
+          "sha512": "cecdfe9984101e98342d0b65dab6a163ba5e7fc9f7d679157c909077071b484db0d6d28735fc98942c97569309b51bdfc04039c085e9f3d9185c326faf6493ed",
+          "sha256": "a8bfa7b73e907b10cf6487817bae046007694b17d24c186500a9132877e68c9e",
+          "sha1": "47b33c5308d96a10c00e80faec14146e477432dd",
+          "md5": "020440f7dd09fbff8ea704fe8fc8a8f7"
+        }
+      ]
+    }
+  ]
+}

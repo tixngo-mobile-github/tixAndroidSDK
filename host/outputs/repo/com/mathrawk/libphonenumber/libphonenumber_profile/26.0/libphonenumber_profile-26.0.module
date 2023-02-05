@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mathrawk.libphonenumber",
+    "module": "libphonenumber_profile",
+    "version": "26.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-857bd6b74c5eb56151bfafe91e7fa6a82b6fee25"
+          }
+        },
+        {
+          "group": "com.googlecode.libphonenumber",
+          "module": "libphonenumber",
+          "version": {
+            "requires": "8.12.32"
+          }
+        },
+        {
+          "group": "com.googlecode.libphonenumber",
+          "module": "carrier",
+          "version": {
+            "requires": "1.158"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "libphonenumber_profile-26.0.aar",
+          "url": "libphonenumber_profile-26.0.aar",
+          "size": 7199,
+          "sha512": "a9c0bed40d1d79cba7f40376027826192c4f59d97407387b0d48c1793724a13a071ce045b098371df7b6f2892e4474c4f43577e4397df5d34f98ea991cc2900f",
+          "sha256": "ef3ea6af76285f94e08db9b49c61b2e0d04c109d6df07201d6dcc496c5119999",
+          "sha1": "388dbc6a544f9dac2415ef67978f32fa04b93c0c",
+          "md5": "6aa1c2197a9699fc159bfa54da942f08"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-857bd6b74c5eb56151bfafe91e7fa6a82b6fee25"
+          }
+        },
+        {
+          "group": "com.googlecode.libphonenumber",
+          "module": "libphonenumber",
+          "version": {
+            "requires": "8.12.32"
+          }
+        },
+        {
+          "group": "com.googlecode.libphonenumber",
+          "module": "carrier",
+          "version": {
+            "requires": "1.158"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "libphonenumber_profile-26.0.aar",
+          "url": "libphonenumber_profile-26.0.aar",
+          "size": 7199,
+          "sha512": "a9c0bed40d1d79cba7f40376027826192c4f59d97407387b0d48c1793724a13a071ce045b098371df7b6f2892e4474c4f43577e4397df5d34f98ea991cc2900f",
+          "sha256": "ef3ea6af76285f94e08db9b49c61b2e0d04c109d6df07201d6dcc496c5119999",
+          "sha1": "388dbc6a544f9dac2415ef67978f32fa04b93c0c",
+          "md5": "6aa1c2197a9699fc159bfa54da942f08"
+        }
+      ]
+    }
+  ]
+}

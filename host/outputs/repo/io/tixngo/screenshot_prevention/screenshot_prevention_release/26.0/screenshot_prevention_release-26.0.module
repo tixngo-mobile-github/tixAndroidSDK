@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.tixngo.screenshot_prevention",
+    "module": "screenshot_prevention_release",
+    "version": "26.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-857bd6b74c5eb56151bfafe91e7fa6a82b6fee25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "screenshot_prevention_release-26.0.aar",
+          "url": "screenshot_prevention_release-26.0.aar",
+          "size": 22525,
+          "sha512": "04e94121f256a0a648154f0b495b8a2e91327b997a71a43caa58ec1ac12cc0df181eb9cb5fe71a0e13db2b4d5383d7ecfc8e20c87600541ec4b83ef16ee5a3f6",
+          "sha256": "b4e46e82e98f47334906983fc9b9be4e21416e3701bca04a6f546577d186d231",
+          "sha1": "d17cb1abc13fc5a418b8252cb58629af8c45a549",
+          "md5": "8569c677dc68dba60be0f82e68951346"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-857bd6b74c5eb56151bfafe91e7fa6a82b6fee25"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "io.tixngo.core",
+          "module": "core",
+          "version": {
+            "requires": "26.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "screenshot_prevention_release-26.0.aar",
+          "url": "screenshot_prevention_release-26.0.aar",
+          "size": 22525,
+          "sha512": "04e94121f256a0a648154f0b495b8a2e91327b997a71a43caa58ec1ac12cc0df181eb9cb5fe71a0e13db2b4d5383d7ecfc8e20c87600541ec4b83ef16ee5a3f6",
+          "sha256": "b4e46e82e98f47334906983fc9b9be4e21416e3701bca04a6f546577d186d231",
+          "sha1": "d17cb1abc13fc5a418b8252cb58629af8c45a549",
+          "md5": "8569c677dc68dba60be0f82e68951346"
+        }
+      ]
+    }
+  ]
+}
