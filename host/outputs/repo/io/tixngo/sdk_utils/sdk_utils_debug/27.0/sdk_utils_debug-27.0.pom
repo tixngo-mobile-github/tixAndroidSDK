@@ -4,6 +4,6 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.tixngo.sdk_utils</groupId>
   <artifactId>sdk_utils_debug</artifactId>
-  <version>26.0</version>
+  <version>27.0</version>
   <packaging>aar</packaging>
 </project>
