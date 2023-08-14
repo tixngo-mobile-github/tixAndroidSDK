@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.appsettings",
+    "module": "app_settings_debug",
+    "version": "v1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-45f6e009110df4f34ec2cf99f63cf73b71b7a420"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "app_settings_debug-v1.0.0.aar",
+          "url": "app_settings_debug-v1.0.0.aar",
+          "size": 8393,
+          "sha512": "59021f4ee3db0b701ad9b389b460bd7cdcdab754270f193c53df03abcfd2a70d5eb2a156966b353f8166cabc8f9f02be5775e656aa1e0baa1c957cb493e4ec26",
+          "sha256": "ef47d2278ff2a13745643727b251cd840b520c5e12c4424bdbdbb029df5c04a3",
+          "sha1": "a452b91bd6854e48851c29b43f7d9e29d58bae59",
+          "md5": "7ad185b8262febdcb92677d082e88180"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-45f6e009110df4f34ec2cf99f63cf73b71b7a420"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "app_settings_debug-v1.0.0.aar",
+          "url": "app_settings_debug-v1.0.0.aar",
+          "size": 8393,
+          "sha512": "59021f4ee3db0b701ad9b389b460bd7cdcdab754270f193c53df03abcfd2a70d5eb2a156966b353f8166cabc8f9f02be5775e656aa1e0baa1c957cb493e4ec26",
+          "sha256": "ef47d2278ff2a13745643727b251cd840b520c5e12c4424bdbdbb029df5c04a3",
+          "sha1": "a452b91bd6854e48851c29b43f7d9e29d58bae59",
+          "md5": "7ad185b8262febdcb92677d082e88180"
+        }
+      ]
+    }
+  ]
+}

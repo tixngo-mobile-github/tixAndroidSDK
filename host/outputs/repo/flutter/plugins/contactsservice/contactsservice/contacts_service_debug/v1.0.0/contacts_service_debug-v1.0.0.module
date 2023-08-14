@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "flutter.plugins.contactsservice.contactsservice",
+    "module": "contacts_service_debug",
+    "version": "v1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-45f6e009110df4f34ec2cf99f63cf73b71b7a420"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "contacts_service_debug-v1.0.0.aar",
+          "url": "contacts_service_debug-v1.0.0.aar",
+          "size": 28954,
+          "sha512": "2cfa43250d2ac4f5eaf4ba8d99293836f6b2407ba7102169df31915cdccb897462e70872da3a408c119bd53f501e0e8365272c72df0bf46743d67c0c5c9a2638",
+          "sha256": "a27141dc8bf8e01b0a02e4ca558e6cc3cbc799be29c21919fb8c3c4aea8d7bf6",
+          "sha1": "8ebe536d86b77c59f7d5916e5bce358f1b9d35f8",
+          "md5": "7a9f8814b5aad7aa98fa7949f92cbb8a"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-45f6e009110df4f34ec2cf99f63cf73b71b7a420"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "contacts_service_debug-v1.0.0.aar",
+          "url": "contacts_service_debug-v1.0.0.aar",
+          "size": 28954,
+          "sha512": "2cfa43250d2ac4f5eaf4ba8d99293836f6b2407ba7102169df31915cdccb897462e70872da3a408c119bd53f501e0e8365272c72df0bf46743d67c0c5c9a2638",
+          "sha256": "a27141dc8bf8e01b0a02e4ca558e6cc3cbc799be29c21919fb8c3c4aea8d7bf6",
+          "sha1": "8ebe536d86b77c59f7d5916e5bce358f1b9d35f8",
+          "md5": "7a9f8814b5aad7aa98fa7949f92cbb8a"
+        }
+      ]
+    }
+  ]
+}

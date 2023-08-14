@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.tixngo.beacon",
+    "module": "beacon_debug",
+    "version": "v1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-45f6e009110df4f34ec2cf99f63cf73b71b7a420"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "beacon_debug-v1.0.0.aar",
+          "url": "beacon_debug-v1.0.0.aar",
+          "size": 48478,
+          "sha512": "ebeffbd7addaba7260865298e32949bbe23bbda51321f757b2aa534b97a354ec1f8fead81a513f54d0a31e3cf5f0f961c598b7cac531e805c615a90c39d704d2",
+          "sha256": "9cb8ee02a1dd26368d9bb8bf3f7f6342ed949896e7563c1900ed9a823b78862e",
+          "sha1": "dcb91353215267b1f65f57cb11e5a53dc0562152",
+          "md5": "9f7cf0ca296505d012d234a477d6ccbf"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-45f6e009110df4f34ec2cf99f63cf73b71b7a420"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.7.21"
+          }
+        },
+        {
+          "group": "io.kontakt.mvn",
+          "module": "sdk",
+          "version": {
+            "requires": "7.1.2"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "com.karumi",
+          "module": "dexter",
+          "version": {
+            "requires": "6.2.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "beacon_debug-v1.0.0.aar",
+          "url": "beacon_debug-v1.0.0.aar",
+          "size": 48478,
+          "sha512": "ebeffbd7addaba7260865298e32949bbe23bbda51321f757b2aa534b97a354ec1f8fead81a513f54d0a31e3cf5f0f961c598b7cac531e805c615a90c39d704d2",
+          "sha256": "9cb8ee02a1dd26368d9bb8bf3f7f6342ed949896e7563c1900ed9a823b78862e",
+          "sha1": "dcb91353215267b1f65f57cb11e5a53dc0562152",
+          "md5": "9f7cf0ca296505d012d234a477d6ccbf"
+        }
+      ]
+    }
+  ]
+}

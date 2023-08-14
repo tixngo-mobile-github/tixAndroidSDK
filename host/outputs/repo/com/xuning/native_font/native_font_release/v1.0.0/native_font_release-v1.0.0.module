@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.xuning.native_font",
+    "module": "native_font_release",
+    "version": "v1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-45f6e009110df4f34ec2cf99f63cf73b71b7a420"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "native_font_release-v1.0.0.aar",
+          "url": "native_font_release-v1.0.0.aar",
+          "size": 5974,
+          "sha512": "4f56c9f43307674465dec79666b28a942806e01ee1cd15e57f3151f0f5b226f383f3e72917237fcf901d3c50307155c309b3596f2e34d246b31359783a31c136",
+          "sha256": "8ec9b668d778264ad7b4738970c354adef1de5811a39f43f6a2483433ebd61c1",
+          "sha1": "9210ae15ff6e05f64858a293b5014d2a614debad",
+          "md5": "3893dd8795551289b7e2e7c84629702a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-45f6e009110df4f34ec2cf99f63cf73b71b7a420"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "native_font_release-v1.0.0.aar",
+          "url": "native_font_release-v1.0.0.aar",
+          "size": 5974,
+          "sha512": "4f56c9f43307674465dec79666b28a942806e01ee1cd15e57f3151f0f5b226f383f3e72917237fcf901d3c50307155c309b3596f2e34d246b31359783a31c136",
+          "sha256": "8ec9b668d778264ad7b4738970c354adef1de5811a39f43f6a2483433ebd61c1",
+          "sha1": "9210ae15ff6e05f64858a293b5014d2a614debad",
+          "md5": "3893dd8795551289b7e2e7c84629702a"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.xamdesign.safe_device",
+    "module": "safe_device_debug",
+    "version": "v1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-45f6e009110df4f34ec2cf99f63cf73b71b7a420"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "safe_device_debug-v1.0.0.aar",
+          "url": "safe_device_debug-v1.0.0.aar",
+          "size": 21866,
+          "sha512": "2ffd877e1c225df274923a826d9350c26e1f8eccb5acdcd19c819f057d361f0564ddf5d039486257a8f812b02cc6033803179e6e24c9462f80c9b3fccdc9f943",
+          "sha256": "570f224a21a70946e025dbe49a583f1e8364d057de21dab809d9443dad3d54b6",
+          "sha1": "d2f96db9669e670822d61e3dbdd363dab1ebfc97",
+          "md5": "0ed209e174cc639b1552f83df2d86a90"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-45f6e009110df4f34ec2cf99f63cf73b71b7a420"
+          }
+        },
+        {
+          "group": "com.scottyab",
+          "module": "rootbeer-lib",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "com.wongpiwat.trust_location",
+          "module": "trust_location_debug",
+          "version": {
+            "requires": "v1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "safe_device_debug-v1.0.0.aar",
+          "url": "safe_device_debug-v1.0.0.aar",
+          "size": 21866,
+          "sha512": "2ffd877e1c225df274923a826d9350c26e1f8eccb5acdcd19c819f057d361f0564ddf5d039486257a8f812b02cc6033803179e6e24c9462f80c9b3fccdc9f943",
+          "sha256": "570f224a21a70946e025dbe49a583f1e8364d057de21dab809d9443dad3d54b6",
+          "sha1": "d2f96db9669e670822d61e3dbdd363dab1ebfc97",
+          "md5": "0ed209e174cc639b1552f83df2d86a90"
+        }
+      ]
+    }
+  ]
+}

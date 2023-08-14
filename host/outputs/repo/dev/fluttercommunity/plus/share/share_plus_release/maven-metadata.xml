@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>dev.fluttercommunity.plus.share</groupId>
+  <artifactId>share_plus_release</artifactId>
+  <versioning>
+    <latest>v1.0.0</latest>
+    <release>v1.0.0</release>
+    <versions>
+      <version>v1.0.0</version>
+    </versions>
+    <lastUpdated>20230814030227</lastUpdated>
+  </versioning>
+</metadata>
