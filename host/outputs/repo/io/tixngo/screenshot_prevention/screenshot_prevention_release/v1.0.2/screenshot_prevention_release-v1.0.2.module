@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.tixngo.screenshot_prevention",
+    "module": "screenshot_prevention_release",
+    "version": "v1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "screenshot_prevention_release-v1.0.2.aar",
+          "url": "screenshot_prevention_release-v1.0.2.aar",
+          "size": 31723,
+          "sha512": "4319856d35acb44b6835c18d5324bff7c00fb480fdd96723ab7662f12f704fae9d86ec12dc3f2c48698c27d961561b5c015d8f7cda08edc524c45b9c31d31c16",
+          "sha256": "e68a3af70cb07c09531a632b1217d352743bf37271d0fc51dc5b5cb85ea34941",
+          "sha1": "2c2e7405061ab0e2c8d9ac412f653b849b3517e4",
+          "md5": "fe6ecd8179de7a9f1cfa18b873edbbb6"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.7.21"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "com.karumi",
+          "module": "dexter",
+          "version": {
+            "requires": "6.2.3"
+          }
+        },
+        {
+          "group": "io.tixngo.core",
+          "module": "core_release",
+          "version": {
+            "requires": "v1.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "screenshot_prevention_release-v1.0.2.aar",
+          "url": "screenshot_prevention_release-v1.0.2.aar",
+          "size": 31723,
+          "sha512": "4319856d35acb44b6835c18d5324bff7c00fb480fdd96723ab7662f12f704fae9d86ec12dc3f2c48698c27d961561b5c015d8f7cda08edc524c45b9c31d31c16",
+          "sha256": "e68a3af70cb07c09531a632b1217d352743bf37271d0fc51dc5b5cb85ea34941",
+          "sha1": "2c2e7405061ab0e2c8d9ac412f653b849b3517e4",
+          "md5": "fe6ecd8179de7a9f1cfa18b873edbbb6"
+        }
+      ]
+    }
+  ]
+}

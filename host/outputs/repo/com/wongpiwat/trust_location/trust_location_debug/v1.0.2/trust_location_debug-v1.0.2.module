@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.wongpiwat.trust_location",
+    "module": "trust_location_debug",
+    "version": "v1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "trust_location_debug-v1.0.2.aar",
+          "url": "trust_location_debug-v1.0.2.aar",
+          "size": 35897,
+          "sha512": "e92d8ced8f118c827eb6b001c84be2ddc752ec154ee3d63fa869846e06ac7f3e1a85557b8042747d7514cfa977bf08e0a2e3aefd62987e5fb172fb5c921394d1",
+          "sha256": "0a3fea7f7fe2d87e24049c983291b83f642a75c21661e89169dbf115c3fd037a",
+          "sha1": "217eff6a450d6c05f00ca1b918920b70ad6ebe76",
+          "md5": "3a41e539c7e9364b2d18b7ba1f374f82"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "androidx.legacy",
+          "module": "legacy-support-v13",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-location",
+          "version": {
+            "requires": "18.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "trust_location_debug-v1.0.2.aar",
+          "url": "trust_location_debug-v1.0.2.aar",
+          "size": 35897,
+          "sha512": "e92d8ced8f118c827eb6b001c84be2ddc752ec154ee3d63fa869846e06ac7f3e1a85557b8042747d7514cfa977bf08e0a2e3aefd62987e5fb172fb5c921394d1",
+          "sha256": "0a3fea7f7fe2d87e24049c983291b83f642a75c21661e89169dbf115c3fd037a",
+          "sha1": "217eff6a450d6c05f00ca1b918920b70ad6ebe76",
+          "md5": "3a41e539c7e9364b2d18b7ba1f374f82"
+        }
+      ]
+    }
+  ]
+}

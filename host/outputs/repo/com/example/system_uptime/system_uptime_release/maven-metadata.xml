@@ -3,11 +3,11 @@
   <groupId>com.example.system_uptime</groupId>
   <artifactId>system_uptime_release</artifactId>
   <versioning>
-    <latest>v1.0.0</latest>
-    <release>v1.0.0</release>
+    <latest>v1.0.2</latest>
+    <release>v1.0.2</release>
     <versions>
-      <version>v1.0.0</version>
+      <version>v1.0.2</version>
     </versions>
-    <lastUpdated>20230814030227</lastUpdated>
+    <lastUpdated>20231221085305</lastUpdated>
   </versioning>
 </metadata>
