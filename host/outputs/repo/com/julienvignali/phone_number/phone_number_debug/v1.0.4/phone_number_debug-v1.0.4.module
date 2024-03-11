@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.julienvignali.phone_number",
+    "module": "phone_number_debug",
+    "version": "v1.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "phone_number_debug-v1.0.4.aar",
+          "url": "phone_number_debug-v1.0.4.aar",
+          "size": 9958,
+          "sha512": "5cce707cbc479480345bf4735d4c49842ca41542fd916647316d41668ffb16f1358ebd0014f64707f8f41685d014b73769ddcb0e4eb65570a0925ab4c6222cb5",
+          "sha256": "4e7ecde17128f088dc53fa2b71e9dff377aac8c1d66b8cfe1aea7d8a7c38c945",
+          "sha1": "c4b805a881e5d80b3852dbd04c49b4c406878cd0",
+          "md5": "f8e09709bc00ae94776046d3139e52e8"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf"
+          }
+        },
+        {
+          "group": "com.googlecode.libphonenumber",
+          "module": "libphonenumber",
+          "version": {
+            "requires": "8.13.17"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "phone_number_debug-v1.0.4.aar",
+          "url": "phone_number_debug-v1.0.4.aar",
+          "size": 9958,
+          "sha512": "5cce707cbc479480345bf4735d4c49842ca41542fd916647316d41668ffb16f1358ebd0014f64707f8f41685d014b73769ddcb0e4eb65570a0925ab4c6222cb5",
+          "sha256": "4e7ecde17128f088dc53fa2b71e9dff377aac8c1d66b8cfe1aea7d8a7c38c945",
+          "sha1": "c4b805a881e5d80b3852dbd04c49b4c406878cd0",
+          "md5": "f8e09709bc00ae94776046d3139e52e8"
+        }
+      ]
+    }
+  ]
+}

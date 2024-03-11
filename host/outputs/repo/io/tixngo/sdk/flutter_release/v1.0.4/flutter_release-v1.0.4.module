@@ -1,0 +1,384 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.tixngo.sdk",
+    "module": "flutter_release",
+    "version": "v1.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "armeabi_v7a_release",
+          "version": {
+            "requires": "1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "arm64_v8a_release",
+          "version": {
+            "requires": "1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_64_release",
+          "version": {
+            "requires": "1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf"
+          }
+        },
+        {
+          "group": "com.spencerccf.app_settings",
+          "module": "app_settings_release",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "com.tekartik.sqflite",
+          "module": "sqflite_release",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "dev.britannio.in_app_review",
+          "module": "in_app_review_release",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.urllauncher",
+          "module": "url_launcher_android_release",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.pathprovider",
+          "module": "path_provider_android_release",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "com.xamdesign.safe_device",
+          "module": "safe_device_release",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "com.xuning.native_font",
+          "module": "native_font_release",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.connectivity",
+          "module": "connectivity_plus_release",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.webviewflutter",
+          "module": "webview_flutter_android_release",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.sharedpreferences",
+          "module": "shared_preferences_android_release",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "io.tixngo.core",
+          "module": "core_release",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "com.baseflow.permissionhandler",
+          "module": "permission_handler_android_release",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "io.tixngo.wallet_suppression",
+          "module": "wallet_suppression_release",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "io.tixngo.beacon",
+          "module": "beacon_release",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "com.example.system_uptime",
+          "module": "system_uptime_release",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "dev.fluttercommunity.plus.share",
+          "module": "share_plus_release",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "flutter.plugins.contactsservice.contactsservice",
+          "module": "contacts_service_release",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "com.julienvignali.phone_number",
+          "module": "phone_number_release",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "io.tixngo.screenshot_prevention",
+          "module": "screenshot_prevention_release",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_release-v1.0.4.aar",
+          "url": "flutter_release-v1.0.4.aar",
+          "size": 17102437,
+          "sha512": "e5a5d73667f235565d21043b98e56b8bced995c1b1ae68de5ea03a025f0b3dab85277a967e377ef41ec2b6347c7b67a4a0c2d7ecbb04e93d771a75763b0a81f7",
+          "sha256": "490e5ab09755608b655ce9205f3bed352055027772dd9adc709ad0aa1bd9970a",
+          "sha1": "8fad01dc2077bb5119049f296c9cd2ccb8ed8d31",
+          "md5": "d353cf124235064cea212aee75e79f8f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "armeabi_v7a_release",
+          "version": {
+            "requires": "1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "arm64_v8a_release",
+          "version": {
+            "requires": "1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_64_release",
+          "version": {
+            "requires": "1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf"
+          }
+        },
+        {
+          "group": "com.spencerccf.app_settings",
+          "module": "app_settings_release",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "com.tekartik.sqflite",
+          "module": "sqflite_release",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "dev.britannio.in_app_review",
+          "module": "in_app_review_release",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.urllauncher",
+          "module": "url_launcher_android_release",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.pathprovider",
+          "module": "path_provider_android_release",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "com.xamdesign.safe_device",
+          "module": "safe_device_release",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "com.xuning.native_font",
+          "module": "native_font_release",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.connectivity",
+          "module": "connectivity_plus_release",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.webviewflutter",
+          "module": "webview_flutter_android_release",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.sharedpreferences",
+          "module": "shared_preferences_android_release",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "io.tixngo.core",
+          "module": "core_release",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "com.baseflow.permissionhandler",
+          "module": "permission_handler_android_release",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "io.tixngo.wallet_suppression",
+          "module": "wallet_suppression_release",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "io.tixngo.beacon",
+          "module": "beacon_release",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "com.example.system_uptime",
+          "module": "system_uptime_release",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "dev.fluttercommunity.plus.share",
+          "module": "share_plus_release",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "flutter.plugins.contactsservice.contactsservice",
+          "module": "contacts_service_release",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "com.julienvignali.phone_number",
+          "module": "phone_number_release",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "io.tixngo.screenshot_prevention",
+          "module": "screenshot_prevention_release",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_release-v1.0.4.aar",
+          "url": "flutter_release-v1.0.4.aar",
+          "size": 17102437,
+          "sha512": "e5a5d73667f235565d21043b98e56b8bced995c1b1ae68de5ea03a025f0b3dab85277a967e377ef41ec2b6347c7b67a4a0c2d7ecbb04e93d771a75763b0a81f7",
+          "sha256": "490e5ab09755608b655ce9205f3bed352055027772dd9adc709ad0aa1bd9970a",
+          "sha1": "8fad01dc2077bb5119049f296c9cd2ccb8ed8d31",
+          "md5": "d353cf124235064cea212aee75e79f8f"
+        }
+      ]
+    }
+  ]
+}

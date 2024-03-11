@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.julienvignali.phone_number",
+    "module": "phone_number_release",
+    "version": "v1.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "phone_number_release-v1.0.4.aar",
+          "url": "phone_number_release-v1.0.4.aar",
+          "size": 9513,
+          "sha512": "d53408b2124934c5651d42ef16fe7d8e46e9ebb62fe0fd706fdd96c2b9b7eb8c86e38a075f7a081d151cfe457f594048b573dc832a06557b5648b5ce9e81e734",
+          "sha256": "7f4f19f09910a8e4549689212ca359fcc1fdc0560fbea0c691fa42265fde1d3b",
+          "sha1": "f7d9cd4750c3e953df2f09584e35642a9fca502e",
+          "md5": "61ff52b3e2bfaa3debb01f8157c5f89c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf"
+          }
+        },
+        {
+          "group": "com.googlecode.libphonenumber",
+          "module": "libphonenumber",
+          "version": {
+            "requires": "8.13.17"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "phone_number_release-v1.0.4.aar",
+          "url": "phone_number_release-v1.0.4.aar",
+          "size": 9513,
+          "sha512": "d53408b2124934c5651d42ef16fe7d8e46e9ebb62fe0fd706fdd96c2b9b7eb8c86e38a075f7a081d151cfe457f594048b573dc832a06557b5648b5ce9e81e734",
+          "sha256": "7f4f19f09910a8e4549689212ca359fcc1fdc0560fbea0c691fa42265fde1d3b",
+          "sha1": "f7d9cd4750c3e953df2f09584e35642a9fca502e",
+          "md5": "61ff52b3e2bfaa3debb01f8157c5f89c"
+        }
+      ]
+    }
+  ]
+}

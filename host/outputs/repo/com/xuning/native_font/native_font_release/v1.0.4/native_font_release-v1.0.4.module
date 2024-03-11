@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.xuning.native_font",
+    "module": "native_font_release",
+    "version": "v1.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "native_font_release-v1.0.4.aar",
+          "url": "native_font_release-v1.0.4.aar",
+          "size": 6018,
+          "sha512": "87fd9d5388c598419caa6dcef00ece1caec53b6a21ff441cdf4d4fd8931ef81cb749ca229eb6778571a48690f1f6ee127acdf680da57a07ea204e5bb4ed6c5d9",
+          "sha256": "361b096a4674fafc4bb3cc2c029d0eeed703a2b80499589be63710049738cf96",
+          "sha1": "008576db2c0082876f67cb737a941d4f6435f070",
+          "md5": "6052f1caca33eb80c003587d5766eaed"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "native_font_release-v1.0.4.aar",
+          "url": "native_font_release-v1.0.4.aar",
+          "size": 6018,
+          "sha512": "87fd9d5388c598419caa6dcef00ece1caec53b6a21ff441cdf4d4fd8931ef81cb749ca229eb6778571a48690f1f6ee127acdf680da57a07ea204e5bb4ed6c5d9",
+          "sha256": "361b096a4674fafc4bb3cc2c029d0eeed703a2b80499589be63710049738cf96",
+          "sha1": "008576db2c0082876f67cb737a941d4f6435f070",
+          "md5": "6052f1caca33eb80c003587d5766eaed"
+        }
+      ]
+    }
+  ]
+}

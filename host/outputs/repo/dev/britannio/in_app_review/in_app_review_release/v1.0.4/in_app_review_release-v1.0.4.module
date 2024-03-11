@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.britannio.in_app_review",
+    "module": "in_app_review_release",
+    "version": "v1.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "in_app_review_release-v1.0.4.aar",
+          "url": "in_app_review_release-v1.0.4.aar",
+          "size": 7932,
+          "sha512": "5b399616e5f0c1942042f7e2299d70e382e7dc18b2b4b73322b3e0c85be6218c76a6532149d917b225b3ab72063d896dd584b5243b0fa9efcac8bb62eed038ef",
+          "sha256": "ee55b0027d26dfdce98894c7fd1c2fc20328a21c15fe10c0891b728185e99795",
+          "sha1": "e262d91ccdebf51208c87e74841c5b66efaa81f7",
+          "md5": "d7d6e355cd4e7fb50134290481ca1e9d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf"
+          }
+        },
+        {
+          "group": "com.google.android.play",
+          "module": "review",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-base",
+          "version": {
+            "requires": "18.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "in_app_review_release-v1.0.4.aar",
+          "url": "in_app_review_release-v1.0.4.aar",
+          "size": 7932,
+          "sha512": "5b399616e5f0c1942042f7e2299d70e382e7dc18b2b4b73322b3e0c85be6218c76a6532149d917b225b3ab72063d896dd584b5243b0fa9efcac8bb62eed038ef",
+          "sha256": "ee55b0027d26dfdce98894c7fd1c2fc20328a21c15fe10c0891b728185e99795",
+          "sha1": "e262d91ccdebf51208c87e74841c5b66efaa81f7",
+          "md5": "d7d6e355cd4e7fb50134290481ca1e9d"
+        }
+      ]
+    }
+  ]
+}

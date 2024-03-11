@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "flutter.plugins.contactsservice.contactsservice",
+    "module": "contacts_service_release",
+    "version": "v1.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "contacts_service_release-v1.0.4.aar",
+          "url": "contacts_service_release-v1.0.4.aar",
+          "size": 27892,
+          "sha512": "8ec685f36f6b2fcca82ff35df489e3a9814ffd4789a196e096e68b7bdc54dbc47f20057a7de896bf200d401c4ddbef06a79abac5213b5726b6837eaf958f6e89",
+          "sha256": "7aa6f9f797c1ab5007307747369c33d002b3cc85c6bb65b47d56c3a67bfc110e",
+          "sha1": "287d32e49f8df0fd912c5144b968b149839b97e8",
+          "md5": "1ebee68e214bbaa83162a58cd57d3e6a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "contacts_service_release-v1.0.4.aar",
+          "url": "contacts_service_release-v1.0.4.aar",
+          "size": 27892,
+          "sha512": "8ec685f36f6b2fcca82ff35df489e3a9814ffd4789a196e096e68b7bdc54dbc47f20057a7de896bf200d401c4ddbef06a79abac5213b5726b6837eaf958f6e89",
+          "sha256": "7aa6f9f797c1ab5007307747369c33d002b3cc85c6bb65b47d56c3a67bfc110e",
+          "sha1": "287d32e49f8df0fd912c5144b968b149839b97e8",
+          "md5": "1ebee68e214bbaa83162a58cd57d3e6a"
+        }
+      ]
+    }
+  ]
+}

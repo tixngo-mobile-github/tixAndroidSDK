@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.tixngo.core",
+    "module": "core_debug",
+    "version": "v1.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core_debug-v1.0.4.aar",
+          "url": "core_debug-v1.0.4.aar",
+          "size": 64559,
+          "sha512": "16c0d4cd7de1106984203574f97c9bd96aece6dda9b01879ffdff2bc1fa9b8db33b2ae10f4c5f0c9dd308e11b66c98c06f393a7800205306b39489ee573972d8",
+          "sha256": "1a10b8f995a514a4637f7fbc37896dcf51b86fb0435a8e92d0c167929b963f76",
+          "sha1": "ce01068624d96a8e527d542f7ea9c469be76da93",
+          "md5": "b57d61f8f7dbf1414bb3982fcc2c0b1f"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.7.21"
+          }
+        },
+        {
+          "group": "com.karumi",
+          "module": "dexter",
+          "version": {
+            "requires": "6.2.3"
+          }
+        },
+        {
+          "group": "com.julienvignali.phone_number",
+          "module": "phone_number_debug",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "com.xamdesign.safe_device",
+          "module": "safe_device_debug",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "com.xuning.native_font",
+          "module": "native_font_debug",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.connectivity",
+          "module": "connectivity_plus_debug",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        },
+        {
+          "group": "dev.fluttercommunity.plus.share",
+          "module": "share_plus_debug",
+          "version": {
+            "requires": "v1.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core_debug-v1.0.4.aar",
+          "url": "core_debug-v1.0.4.aar",
+          "size": 64559,
+          "sha512": "16c0d4cd7de1106984203574f97c9bd96aece6dda9b01879ffdff2bc1fa9b8db33b2ae10f4c5f0c9dd308e11b66c98c06f393a7800205306b39489ee573972d8",
+          "sha256": "1a10b8f995a514a4637f7fbc37896dcf51b86fb0435a8e92d0c167929b963f76",
+          "sha1": "ce01068624d96a8e527d542f7ea9c469be76da93",
+          "md5": "b57d61f8f7dbf1414bb3982fcc2c0b1f"
+        }
+      ]
+    }
+  ]
+}

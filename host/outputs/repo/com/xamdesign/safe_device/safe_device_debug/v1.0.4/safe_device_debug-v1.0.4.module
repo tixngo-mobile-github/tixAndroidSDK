@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.xamdesign.safe_device",
+    "module": "safe_device_debug",
+    "version": "v1.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "safe_device_debug-v1.0.4.aar",
+          "url": "safe_device_debug-v1.0.4.aar",
+          "size": 76952,
+          "sha512": "4287a319339b4526e7d13ec617d85807315b750bc1d1c888caba66773a5a68186d7f4bd1cf8de29111758d454b9aec3a9cebf1846d89fbe0a3d1980dba3d7b37",
+          "sha256": "6333132cb93158b3485add151357d42c95235808af43d2b3d331c256da4e26cc",
+          "sha1": "e18fc956da0c4c3bda54b3c6b53aee5508c2a3b1",
+          "md5": "44f6c6f6172cfce065f319fbabe71a29"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf"
+          }
+        },
+        {
+          "group": "com.scottyab",
+          "module": "rootbeer-lib",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.legacy",
+          "module": "legacy-support-v13",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-location",
+          "version": {
+            "requires": "21.1.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "safe_device_debug-v1.0.4.aar",
+          "url": "safe_device_debug-v1.0.4.aar",
+          "size": 76952,
+          "sha512": "4287a319339b4526e7d13ec617d85807315b750bc1d1c888caba66773a5a68186d7f4bd1cf8de29111758d454b9aec3a9cebf1846d89fbe0a3d1980dba3d7b37",
+          "sha256": "6333132cb93158b3485add151357d42c95235808af43d2b3d331c256da4e26cc",
+          "sha1": "e18fc956da0c4c3bda54b3c6b53aee5508c2a3b1",
+          "md5": "44f6c6f6172cfce065f319fbabe71a29"
+        }
+      ]
+    }
+  ]
+}

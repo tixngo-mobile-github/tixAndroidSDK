@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.tixngo.wallet_suppression",
+    "module": "wallet_suppression_debug",
+    "version": "v1.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wallet_suppression_debug-v1.0.4.aar",
+          "url": "wallet_suppression_debug-v1.0.4.aar",
+          "size": 7274,
+          "sha512": "599ce2c2bf9104e5fcb358a2c066bc1f4ff42efe7d0420f1edabe126ae3b202d1a3d0ac8414ef855c64ff43bcde565e7bc9fa69ff5aa02a709dd134dd8fcc15d",
+          "sha256": "4c1b160ccad10a2bf022f6d6af071268c2692034f922a92ef8a5ed6adf3b4661",
+          "sha1": "892f69cb1c258073791423a443ba94d58826bde1",
+          "md5": "d9c9eb96d193599d435a3916eb8103d5"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wallet_suppression_debug-v1.0.4.aar",
+          "url": "wallet_suppression_debug-v1.0.4.aar",
+          "size": 7274,
+          "sha512": "599ce2c2bf9104e5fcb358a2c066bc1f4ff42efe7d0420f1edabe126ae3b202d1a3d0ac8414ef855c64ff43bcde565e7bc9fa69ff5aa02a709dd134dd8fcc15d",
+          "sha256": "4c1b160ccad10a2bf022f6d6af071268c2692034f922a92ef8a5ed6adf3b4661",
+          "sha1": "892f69cb1c258073791423a443ba94d58826bde1",
+          "md5": "d9c9eb96d193599d435a3916eb8103d5"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.spencerccf.app_settings</groupId>
+  <artifactId>app_settings_release</artifactId>
+  <versioning>
+    <latest>v1.0.4</latest>
+    <release>v1.0.4</release>
+    <versions>
+      <version>v1.0.4</version>
+    </versions>
+    <lastUpdated>20240306085857</lastUpdated>
+  </versioning>
+</metadata>

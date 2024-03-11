@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.system_uptime",
+    "module": "system_uptime_debug",
+    "version": "v1.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "system_uptime_debug-v1.0.4.aar",
+          "url": "system_uptime_debug-v1.0.4.aar",
+          "size": 5756,
+          "sha512": "ab66533bfa6e43f4a8622e6600b68bc4ad7bad0648a5b9ea237097b2fa0da9be559401564b8e9cc8d7a8596e85fb8bb640861d63ca45d5a346aec1f4d79385ec",
+          "sha256": "0f66441a5afe8a173a9938a7fba5b879acbe5cb555ca4841880804c91c292619",
+          "sha1": "dcd3033546c42346695791525d25c496c45f1bda",
+          "md5": "a822147b494f1ebe807d4664ba4741fb"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.7.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "system_uptime_debug-v1.0.4.aar",
+          "url": "system_uptime_debug-v1.0.4.aar",
+          "size": 5756,
+          "sha512": "ab66533bfa6e43f4a8622e6600b68bc4ad7bad0648a5b9ea237097b2fa0da9be559401564b8e9cc8d7a8596e85fb8bb640861d63ca45d5a346aec1f4d79385ec",
+          "sha256": "0f66441a5afe8a173a9938a7fba5b879acbe5cb555ca4841880804c91c292619",
+          "sha1": "dcd3033546c42346695791525d25c496c45f1bda",
+          "md5": "a822147b494f1ebe807d4664ba4741fb"
+        }
+      ]
+    }
+  ]
+}

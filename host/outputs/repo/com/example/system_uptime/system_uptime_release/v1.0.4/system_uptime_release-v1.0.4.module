@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.system_uptime",
+    "module": "system_uptime_release",
+    "version": "v1.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "system_uptime_release-v1.0.4.aar",
+          "url": "system_uptime_release-v1.0.4.aar",
+          "size": 5586,
+          "sha512": "61a7fcaa8b4f2d99215a2ce505b4a8aadb4f75e7e6df2587ca7e2ff0f1038c7270fe6cb5e3670f2f0e534c11f2cd391a9c0dee959589dc6ba157be583ba1fb5c",
+          "sha256": "f33508945d3692c3bb923f94f2c0ad230e605a4d020ac263c3bd8a366fa0cc8d",
+          "sha1": "d140952babde0f61ba184f50cf0b4201e284a1d0",
+          "md5": "90da3e61b17b8eedc8f8c5d8468cf863"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.7.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "system_uptime_release-v1.0.4.aar",
+          "url": "system_uptime_release-v1.0.4.aar",
+          "size": 5586,
+          "sha512": "61a7fcaa8b4f2d99215a2ce505b4a8aadb4f75e7e6df2587ca7e2ff0f1038c7270fe6cb5e3670f2f0e534c11f2cd391a9c0dee959589dc6ba157be583ba1fb5c",
+          "sha256": "f33508945d3692c3bb923f94f2c0ad230e605a4d020ac263c3bd8a366fa0cc8d",
+          "sha1": "d140952babde0f61ba184f50cf0b4201e284a1d0",
+          "md5": "90da3e61b17b8eedc8f8c5d8468cf863"
+        }
+      ]
+    }
+  ]
+}

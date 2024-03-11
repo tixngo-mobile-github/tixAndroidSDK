@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.xuning.native_font",
+    "module": "native_font_debug",
+    "version": "v1.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "native_font_debug-v1.0.4.aar",
+          "url": "native_font_debug-v1.0.4.aar",
+          "size": 6206,
+          "sha512": "a178a9fe21db90d202152ceeef87b93cbc84dc7501b1020727b9dc384e542f2b97a0235ac678a28dfa482cdc450af09d4a34c182f59ea1f1d183f61a1bc0948e",
+          "sha256": "0312f590b62067cd7eb9c15b3d541ee0ef95396454222c1a79a5ae7bb7707f63",
+          "sha1": "353b39486e9480f6bc0307afa967cc0836bbb943",
+          "md5": "2a2ffe016a02bc2427fd390eb22e66cf"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "native_font_debug-v1.0.4.aar",
+          "url": "native_font_debug-v1.0.4.aar",
+          "size": 6206,
+          "sha512": "a178a9fe21db90d202152ceeef87b93cbc84dc7501b1020727b9dc384e542f2b97a0235ac678a28dfa482cdc450af09d4a34c182f59ea1f1d183f61a1bc0948e",
+          "sha256": "0312f590b62067cd7eb9c15b3d541ee0ef95396454222c1a79a5ae7bb7707f63",
+          "sha1": "353b39486e9480f6bc0307afa967cc0836bbb943",
+          "md5": "2a2ffe016a02bc2427fd390eb22e66cf"
+        }
+      ]
+    }
+  ]
+}
